@@ -28,6 +28,7 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 
 [Remote Proxy]
 不限时 = https://api.91unicorn.vip/api/v1/client/subscribe?token=b137edcfdff55133b6642bad1fdb4b51,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+独角兽 = https://mail.djsyyds.one/api/v1/client/subscribe?token=1ba82e14049659eee78618bf008d18b1,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 
 [Remote Filter]
 香港节点 = NameRegex, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
